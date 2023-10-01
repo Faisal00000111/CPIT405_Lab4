@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Great Auto Parts - Order Form</h1>
+    <form action="post">
+      <label for="fname">First Name: </label>
+      <input type="text" id="fname" placeholder="Enter your first name" />
+
+      <label for="lname">Last Name: </label>
+      <input type="text" id="lname" placeholder="Enter your last name" />
+
+      <label for="email">Email: </label>
+      <input type="text" id="email" placeholder="Enter your email address" />
+
+      <label for="phoneNum">Phone number: </label>
+      <input type="text" id="phoneNum" placeholder="Enter your phone number" />
+
+      <label for="make">Make: </label>
+      <select name="make" id="make">
+        <option value="toyota">toyota</option>
+        <option value="nissan">nissan</option>
+        <option value="dodge">dodge</option>
+        <option value="borsh">borsh</option>
+        <option value="bmw">bmw</option>
+      </select>
+
+      <label for="mode">Model: </label>
+      <input type="text" id="model" placeholder="model" />
+
+      <label for="year">Year: </label>
+      <input type="text" id="year" placeholder="Year" />
+
+      <label for="date">Date: </label>
+      <input type="date" id="date" placeholder="mm/dd/yyyy" />
+
+      <label for="spare">Spare Part: </label>
+      <input
+        type="text"
+        id="spare"
+        placeholder="Enter the spare part you need"
+      />
+
+      <label for="quantity">Quantity: </label>
+      <input
+        type="text"
+        id="quantity"
+        placeholder="Enter the quantity of the spare part you need"
+      />
+
+      <label for="comment">Comment: </label>
+      <textarea id="comment" placeholder="Enter your comment" cols="30" rows="10"></textarea>
+      <button>submit</button>
+    </form>
+  </body>
+</html>

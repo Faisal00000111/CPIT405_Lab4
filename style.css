@@ -1,0 +1,35 @@
+label {
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input,select,textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2f8ec2;
+    border-radius: 10px;
+}
+
+button {
+    margin: 25%;
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2f8ec2;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #4f829d;
+    transform: scale(1.1, 1.1);
+}
